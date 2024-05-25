@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffb700;
+}
+
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: #7d2929;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+
+
+
+@media(max-width: 450px){
+    .logo{
+        
+    }   
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333; /* Колір тексту */
+    text-align: center; /* Вирівнювання по центру */
+}
+
+h2 {
+    color: #666; /* Колір тексту */
+}
+
+p {
+    line-height: 1.6; /* Міжрядковий інтервал */
+}
+
+ul, ol {
+    margin-bottom: 20px; /* Відступ від нижнього краю списку */
+}
+
+nav {
+    margin-top: 10px; /* Відступ від верхнього краю навігації */
+}
+
+/* Стилізація поля пошуку */
+form input[type="text"] {
+    padding: 8px; /* Відступи всередині поля */
+    border: 1px solid #ccc; /* Рамка */
+    border-radius: 5px; /* Радіус заокруглення кутів */
+}
+
+form button {
+    padding: 8px 16px; /* Відступи всередині кнопки */
+    background-color: #007bff; /* Колір фону */
+    color: #fff; /* Колір тексту */
+    border: none; /* Відсутність рамки */
+    border-radius: 5px; /* Радіус заокруглення кутів */
+    cursor: pointer; /* Зміна форми курсора при наведенні */
+}
+
+/* При наведенні на кнопку пошуку */
+form button:hover {
+    background-color: #0056b3; /* Зміна коліру фону */
+}
+
+/* Стилізація верхнього та нижнього блоків верхівки */
+.top-header, .bottom-header {
+    display: flex; /* Відображення в рядок */
+    justify-content: space-between; /* Рівномірний розподіл простору між елементами */
+    align-items: center; /* Вирівнювання елементів по вертикалі */
+}
+
+/* Стилізація контактної інформації */
+.contact-info span {
+    margin-right: 20px; /* Відступ від правого краю між контактними даними */
+}
+
+/* Стилізація соціальних іконок */
+.social-icons a {
+    margin-right: 10px; /* Відступ між іконками */
+}
+
+.social-icons img {
+    width: 30px; /* Ширина іконок */
+    height: auto; /* Автоматична висота */
+}
